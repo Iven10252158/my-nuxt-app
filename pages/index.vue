@@ -21,7 +21,10 @@ const cardSetting = ref({
 
 <template>
     <div class="my-4 flex justify-center">
-        <Card
+        <p class="text-xl text-green-600 font-bold">
+            Hello Nuxt App
+        </p>
+        <!-- <Card
             class="border border-transparent"
             :width="cardSetting.width"
             :height="cardSetting.height"
@@ -34,6 +37,6 @@ const cardSetting = ref({
             :sub-title-size="cardSetting.subTitleSize"
             :content="cardSetting.content"
             :content-size="cardSetting.contentSize"
-        />
+        /> -->
     </div>
 </template>
